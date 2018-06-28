@@ -12,9 +12,11 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
+  def new=(new)
+    @new = new
+  end
   def new
     @new
   end
-
 
 end
